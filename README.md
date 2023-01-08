@@ -21,7 +21,7 @@ cd /d/Study/Git
 then git clone 'Git repository url link'
 
 --------------------------------
-to undo the changes in my practice.java
+to undo the changes in my practice.java before commit
 git checkout -- practice.java
 
 to undo all the changes that were made in local repo
@@ -34,7 +34,7 @@ git push
 
 --------------------------------
 
-
+to undo the changes in my practice.java after commit
 
 
 
