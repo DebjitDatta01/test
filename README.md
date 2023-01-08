@@ -2,6 +2,9 @@
 
 this is for testing purpose
 
+Using vscode for git default editor
+https://stackoverflow.com/questions/30024353/how-to-use-visual-studio-code-as-default-editor-for-git
+
 --------------------------------
 first git add fileName.java (Case sensitive)
 
