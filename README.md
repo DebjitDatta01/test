@@ -51,4 +51,6 @@ to remove a particular file from a staging area
 git reset practice.class
 to remove all from staging area
 git reset
+to reset from a commit id
+git reset --hard <commitid>
 
