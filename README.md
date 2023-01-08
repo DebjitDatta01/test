@@ -35,7 +35,11 @@ git push
 --------------------------------
 
 to undo the changes in my practice.java after commit
+git log 
+copy the commit id then
+git revert <commit id> (directly commit press :q to save)
+git revert -n <commit id> (no commit we need to explicitly commit again using git commit)
 
-
+---------------------------------
 
 
