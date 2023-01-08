@@ -45,4 +45,10 @@ git revert -n <commit id> (no commit we need to explicitly commit again using gi
 
 ---------------------------------
 
+to add all files in staging area
+git add .
+to remove a particular file from a staging area
+git reset practice.class
+to remove all from staging area
+git reset
 
