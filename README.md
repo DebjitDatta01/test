@@ -66,5 +66,8 @@ git branch
 to create a new branch in git 
 git branch branchName
 
+to make the new branch active 
+git checkout branchName
+
 
 
