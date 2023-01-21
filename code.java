@@ -9,6 +9,8 @@ public class code {
 
 		System.out.println("the sum is " + (x + y));
 
+		x += 1;
+		y--;
 		System.out.println("To check parallel coding ");
 
 	}
