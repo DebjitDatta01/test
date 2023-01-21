@@ -54,4 +54,3 @@ git reset
 to reset from a commit id
 git reset --hard <commitid>
 
-hello
