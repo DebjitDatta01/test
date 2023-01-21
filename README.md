@@ -54,3 +54,17 @@ git reset
 to reset from a commit id
 git reset --hard <commitid>
 
+----------------------------------
+Parellel Code Development
+git branching allows us to create two branches of the same code
+ and then do our experiments and after testing we can merge two codes to one file
+
+main(no longer master) is a default branch in git
+to show all the branches present in repo 
+git branch
+
+to create a new branch in git 
+git branch branchName
+
+
+
