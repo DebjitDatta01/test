@@ -99,7 +99,14 @@ it is same as
 git show (commit_id of the last commit) 
 
 we can use the git difftool to view differences using commit 
-we can also use the head to show 
+we can also use the head to show  older to newer
 git difftool head~1 head~2
 this will show the diff of  2nd and 3rd 
-latest(1st) is the head 
+latest(1st) is the head  
+
+we can change the head to ditached head using 
+git chekout commit_id
+or 
+git checkout head~1/2/3/..
+to go back to head
+git checkout main 
