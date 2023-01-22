@@ -89,3 +89,9 @@ to delete the branch from github
 after deleting from the local branch
 git push origin -d branchName
 
+-------------------------------------
+head is the refernce to the latest commit
+git show head 
+this will show about the latest commit 
+it is same as 
+git show <commit id of the last commit> 
