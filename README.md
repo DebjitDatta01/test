@@ -84,6 +84,8 @@ git push --set-upstream origin branchName
 
 to delete a branch
 git branch -d branchName [this will delete from local machine only]
+to delete a branch even if it is not merged
+git branch -D branchName 
 
 to delete the branch from github
 after deleting from the local branch
