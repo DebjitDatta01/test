@@ -92,8 +92,14 @@ after deleting from the local branch
 git push origin -d branchName
 
 -------------------------------------
-head is the refernce to the latest commit
+head is the refernce to the latest commit (not always but in majority of the cases )
 git show head 
 this will show about the latest commit 
 it is same as 
 git show (commit_id of the last commit) 
+
+we can use the git difftool to view differences using commit 
+we can also use the head to show 
+git difftool head~1 head~2
+this will show the diff of  2nd and 3rd 
+latest(1st) is the head 
