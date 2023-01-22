@@ -72,5 +72,9 @@ git checkout branchName
 two differnt codes will be created for two differnt branches after we create new branch
 so we can code in two differnt .java file and later we can merge them
 
+to merge two files
+first we need to go to main branch git checkout main
+then 
+git merge otherbranchName 
 
 
