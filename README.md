@@ -65,6 +65,8 @@ git branch
 
 to create a new branch in git 
 git branch branchName
+to create and also switch to the new branch
+git checkout -b branchName 
 
 to switch to a branch 
 git checkout branchName
@@ -77,4 +79,13 @@ first we need to go to main branch git checkout main
 then 
 git merge otherbranchName 
 
+to push the new branch in github 
+git push --set-upstream origin branchName 
+
+to delete a branch
+git branch -d branchName [this will delete from local machine only]
+
+to delete the branch from github
+after deleting from the local branch
+git push origin -d branchName
 
