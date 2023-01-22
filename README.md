@@ -40,8 +40,8 @@ git push
 to undo the changes in my practice.java after commit
 git log 
 copy the commit id then
-git revert <commit id> (directly commit press :q to save)
-git revert -n <commit id> (no commit we need to explicitly commit again using git commit)
+git revert commit_id (directly commit press :q to save)
+git revert -n commit_id (no commit we need to explicitly commit again using git commit)
 
 ---------------------------------
 
@@ -51,8 +51,8 @@ to remove a particular file from a staging area
 git reset practice.class
 to remove all from staging area
 git reset
-to reset from a commit id
-git reset --hard <commitid>
+to reset from a commit_id
+git reset --hard commit_id
 
 ----------------------------------
 Parellel Code Development
@@ -94,4 +94,4 @@ head is the refernce to the latest commit
 git show head 
 this will show about the latest commit 
 it is same as 
-git show <commit id of the last commit> 
+git show (commit_id of the last commit) 
