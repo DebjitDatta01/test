@@ -110,3 +110,12 @@ or
 git checkout head~1/2/3/..
 to go back to head
 git checkout main 
+
+--------------------------------------
+
+to ignore files to apper in git 
+first we need to create a gitignore file
+touch .gitignore
+then edit the gitignore file and add the filename
+example- we can ignore all the .class files using *.class
+        we can ignore a file using the full name of that file
