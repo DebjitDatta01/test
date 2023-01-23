@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class code {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int x = sc.nextInt();
+		int y = sc.nextInt();
+
+		System.out.println("the sum is " + (x + y));
+
+		x += 1;
+		y--;
+		System.out.println("To check parallel coding ");
+<<<<<<< HEAD
+		System.out.println("added yay");
+=======
+		System.out.println("added notthing");
+
+>>>>>>> 92655a023f7f08c4875e84efd576920e356e8037
+	}
+
+}
