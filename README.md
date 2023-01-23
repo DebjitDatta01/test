@@ -119,3 +119,13 @@ touch .gitignore
 then edit the gitignore file and add the filename
 example- we can ignore all the .class files using *.class
         we can ignore a file using the full name of that file
+
+--------------------------------------
+
+using git difftool for diffrent editor
+git difftool -t vimdiff 
+git difftool -t vscode
+
+git difftool head head~1
+
+
