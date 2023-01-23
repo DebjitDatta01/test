@@ -132,3 +132,24 @@ git difftool head head~1
 to open git editor file 
 git config --global -e
 
+---------------------------------------
+MCQ
+to add all files and changes of the current folder to the staging environment - git add -all
+git version - git--version
+used to give tags to the specific commit - git tag[commit id]
+initialize git on the current repo - git init
+check state of local git since commit / current status - git status
+how many head in local repo - one
+set user email for current repo - git cofig user.email
+
+rename a branch -  git branch -m old_branch_name new_branch_name
+create a new branch and switch to the branch - git checkout -b test_branch
+to delte a branch - git branch -D branch_name
+branches can be merged - true
+git places the result of merge into  a new commit
+git merge option -s abbreviate - --strategy
+request to merge your branch to another branch - pull request
+when should you avoid rebasing a branch - if you have shared the branch 
+show differences between the current branch and the branch new-email - git diff new-email
+makes git use the file from the conflicting commit you are merging from - git checkout--theirs index.html
+
