@@ -129,3 +129,6 @@ git difftool -t vscode
 git difftool head head~1
 
 
+to open git editor file 
+git config --global -e
+
