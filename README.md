@@ -113,7 +113,7 @@ git checkout main
 
 --------------------------------------
 
-to ignore files to apper in git 
+to ignore files to apper in github repository folder 
 first we need to create a gitignore file
 touch .gitignore
 then edit the gitignore file and add the filename
